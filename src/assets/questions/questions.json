@@ -1,0 +1,59 @@
+{
+    "survey" : [
+        {
+            "id": 1,
+            "type": "TITA",
+            "required": true,
+            "question": "What is Astronomy?"
+        },
+        {
+            "id": 2,
+            "type": "option",
+            "required": true,
+            "question": "What is the only element to have been initially discovered on some place other than Earth?",
+            "options": [
+                        {"id": "H", "option": "Hydrogen"}, 
+                        {"id": "Ti", "option": "Titanium"}, 
+                        {"id": "He", "option": "Helium"}, 
+                        {"id": "O", "option": "Oxygen"}
+                    ]
+        },
+        {
+            "id": 3,
+            "type": "MCQ",
+            "required": true,
+            "question": "Which of these instruments can be used to stargaze?",
+            "options": [
+                {"id": "1", "option": "Telescope"}, 
+                {"id": "2", "option": "Microscope"}, 
+                {"id": "3", "option": "Binoculars"}, 
+                {"id": "4", "option": "Eyepiece"},
+                {"id": "5", "option": "Spectrometer"}
+            ]
+        },
+        {
+            "id": 4,
+            "type": "option",
+            "required": true,
+            "question": "When was the Hubble telescope launched?",
+            "options": [
+                {"id": "1970", "option": "1970"}, 
+                {"id": "1990", "option": "1990"}, 
+                {"id": "2004", "option": "2004"}, 
+                {"id": "1907", "option": "1907"}
+            ]
+        },
+        {
+            "id": 5,
+            "type": "option",
+            "required": true,
+            "question": "The satellite Calypso orbits which planet?",
+            "options": [
+                {"id": "1", "option": "Saturn"}, 
+                {"id": "2", "option": "Uranus"}, 
+                {"id": "3", "option": "Jupiter"}, 
+                {"id": "4", "option": "Mars"}
+            ]
+        }
+    ]
+}

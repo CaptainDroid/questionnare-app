@@ -1,0 +1,56 @@
+<div class="container">
+  <form *ngIf="surveyForm" [formGroup]="surveyForm" (ngSubmit)="endSurvey()">
+    <div class="survey-panel">
+      <div *ngFor="let question of questions; let i=index">
+        <div *ngIf="count === i" class="question-panel">
+          <h1 [ngStyle]="{'text-align':'center'}">{{question.category | uppercase}}</h1>
+          <br>
+          <div class="question"><label>{{i+1}}. </label>{{question.question}}</div>
+
+        <!-- <mat-form-field floatLabel="never" class="option-panel"> -->
+
+          <div [ngSwitch]="question.type" class="option">
+            <div *ngSwitchCase="'TITA'">
+              <input type="text" maxlength="250" [formControlName]="question.key">
+            </div>
+
+            <div *ngSwitchCase="'option'">
+            
+              <mat-radio-group [ngStyle]="{'width.%':'100'}" matInput [formControlName]="question.key">
+                <ng-container *ngFor="let optn of question.options">
+                  <mat-radio-button [value]="optn.id">
+                    {{optn.option}}
+                  </mat-radio-button>
+                  <br/>
+                </ng-container>
+              </mat-radio-group>
+            
+            </div>
+            
+            <div *ngSwitchCase="'MCQ'">
+              <mat-select matInput [placeholder]="'Please select options from the list.'" [formControlName]="question.key" multiple>
+                <mat-option *ngFor="let optn of question.options" [value]="optn.id">
+                  {{optn.option}}
+                </mat-option>
+              </mat-select>
+            </div>
+          </div>
+          <mat-error *ngIf="(!f[question.key].valid && f[question.key].touched)">
+            This is required.
+          </mat-error>
+          <div *ngIf="questions && questions.length">
+              <button mat-raised-button color="accent" *ngIf="count > 0" (click)="prevQuestion(question)">Previous</button>
+              <button mat-raised-button color="accent" *ngIf="count < questions.length - 1" (click)="nextQuestion(question)">Next</button>
+              <button mat-raised-button color="primary" *ngIf="count === questions.length - 1" type="submit">Finish</button>
+          </div>
+        <!-- </mat-form-field> -->
+        </div>
+      </div>
+    </div>
+  </form>
+
+  <div *ngIf="finished">
+      <app-spider-chart [elementId]="'result'" [data]="chartData"></app-spider-chart>
+  </div>
+
+</div>

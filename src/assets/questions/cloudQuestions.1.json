@@ -1,0 +1,38 @@
+{
+    "survey" : [
+        {
+            "category": "Astronomy",
+            "questions": [
+            {
+                "id": 5,
+                "type": "option",
+                "required": true,
+                "question": "The satellite Calypso orbits which planet?",
+                "options": [
+                    {"id": "1", "option": "Saturn", "weight": 10}, 
+                    {"id": "2", "option": "Uranus", "weight": 4}, 
+                    {"id": "3", "option": "Jupiter", "weight": 5}, 
+                    {"id": "4", "option": "Mars", "weight": 0}
+                ]
+            }]
+        },
+        {
+            "category": "DB Migration",
+            "questions": [
+                {
+                    "id": 5,
+                    "type": "option",
+                    "required": true,
+                    "question": " Please estimate the number of data migration projects your company executes each year. Please include programs where data migration forms a significant part (>15%) of the total budget.",
+                    "options": [
+                        {"id": "ab1", "option": "More than 20", "weight": 10}, 
+                        {"id": "ab2", "option": "11-20", "weight": 8}, 
+                        {"id": "ab3", "option": "6-10", "weight": 5}, 
+                        {"id": "ab4", "option": "1-5", "weight": 2},
+                        {"id": "ab5", "option": "None", "weight": 0}
+                    ]
+                }
+            ]
+        }
+    ]
+}

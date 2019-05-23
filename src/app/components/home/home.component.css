@@ -1,0 +1,10 @@
+.container {
+    padding: 10% 25%;
+    text-align: center;
+}
+
+.welcome-message {
+    font-weight: bolder;
+    font-size: 3em;
+    margin: 0.67em;
+}

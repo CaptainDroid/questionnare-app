@@ -1,0 +1,12 @@
+<mat-toolbar color="primary">
+    <span routerLink="/" class="big-head">GCPApp</span>
+    <span *ngIf="loggedIn">
+        <span routerLink="home">Home</span>
+    <span routerLink="survey">Survey</span>
+    </span>
+
+    <span class="space"></span>
+    <span routerLink="/" *ngIf="!loggedIn">Login</span>
+    <span (click)="logout()" *ngIf="loggedIn">Logout</span>
+</mat-toolbar>
+<router-outlet></router-outlet>

@@ -1,0 +1,14 @@
+<div class="container">
+    <div>
+        <div>
+            <input type="text" [(ngModel)]="username" placeholder="Username">
+        </div>
+        <div>
+            <input type="password" [(ngModel)]="password" placeholder="Password">
+        </div>
+        <div class="error" *ngIf="submitted && error">
+            {{error}}
+        </div>
+        <button mat-raised-button color="primary" (click)="login()">Login</button>
+    </div>
+</div>

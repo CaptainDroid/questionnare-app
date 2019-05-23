@@ -1,0 +1,27 @@
+{
+    "users": [{
+            "id": 1357345,
+            "username": "akash",
+            "password": "teamawesome",
+            "name": "Akash"
+        },
+        {
+            "id": 1232768,
+            "username": "pandu",
+            "password": "teamawesome",
+            "name": "Pandu"
+        },
+        {
+            "id": 105326,
+            "username": "sam",
+            "password": "teamawesome",
+            "name": "Sam"
+        },
+        {
+            "id": 372046,
+            "username": "kumar",
+            "password": "teamawesome",
+            "name": "Kumar"
+        }
+    ]
+}

@@ -1,0 +1,256 @@
+{
+    "survey" : [
+        {
+            "category": "Astronomy",
+            "questions": [
+            {
+                "id": 1,
+                "type": "TITA",
+                "required": true,
+                "question": "What is Astronomy?",
+                "options":[]
+            },
+            {
+                "id": 2,
+                "type": "option",
+                "required": true,
+                "question": "What is the only element to have been initially discovered on some place other than Earth?",
+                "options": [
+                            {"id": "H", "option": "Hydrogen", "weight": 3}, 
+                            {"id": "Ti", "option": "Titanium", "weight": 1}, 
+                            {"id": "He", "option": "Helium", "weight": 10}, 
+                            {"id": "O", "option": "Oxygen", "weight": 2}
+                        ]
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "required": true,
+                "question": "Which of these instruments can be used to stargaze?",
+                "options": [
+                    {"id": "1", "option": "Telescope", "weight": 10}, 
+                    {"id": "2", "option": "Microscope", "weight": 0}, 
+                    {"id": "3", "option": "Binoculars", "weight": 8}, 
+                    {"id": "4", "option": "Eyepiece", "weight": 2},
+                    {"id": "5", "option": "Spectrometer", "weight": 2}
+                ]
+            },
+            {
+                "id": 4,
+                "type": "option",
+                "required": true,
+                "question": "When was the Hubble telescope launched?",
+                "options": [
+                    {"id": "1970", "option": "1970", "weight": 2}, 
+                    {"id": "1990", "option": "1990", "weight": 10}, 
+                    {"id": "2004", "option": "2004", "weight": 2}, 
+                    {"id": "1907", "option": "1907", "weight": 2}
+                ]
+            },
+            {
+                "id": 5,
+                "type": "option",
+                "required": true,
+                "question": "The satellite Calypso orbits which planet?",
+                "options": [
+                    {"id": "1", "option": "Saturn", "weight": 10}, 
+                    {"id": "2", "option": "Uranus", "weight": 4}, 
+                    {"id": "3", "option": "Jupiter", "weight": 5}, 
+                    {"id": "4", "option": "Mars", "weight": 0}
+                ]
+            }]
+        },
+        {
+            "category": "DB Migration",
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "option",
+                    "required": true,
+                    "question": "Data migration expertise – how much data migration expertise do you have in your business?",
+                    "options": [
+                                {"id": "aH", "option": "A lot, we deliver our own projects", "weight": 10}, 
+                                {"id": "aTi", "option": "None, we use a systems integrator", "weight": 2}, 
+                                {"id": "aHe", "option": "None, we hire contract staff as required", "weight": 1}, 
+                                {"id": "aO", "option": "Quite a lot, but we also use a systems integrator", "weight": 7}
+                            ]
+                },
+                {
+                    "id": 2,
+                    "type": "option",
+                    "required": true,
+                    "question": "Data migration method – your business",
+                    "options": [
+                                {"id": "bH", "option": "Does not use a formal method for data migration", "weight": 1}, 
+                                {"id": "bTi", "option": "Has a method, but does not always use it", "weight": 3}, 
+                                {"id": "bHe", "option": "Has a method and usually uses it", "weight": 7}, 
+                                {"id": "bO", "option": "Always uses a formal method for data migration", "weight": 10}
+                            ]
+                },
+                {
+                    "id": 3,
+                    "type": "MCQ",
+                    "required": true,
+                    "question": "Service disruption – in general, how important is maintaining your services throughout the duration of a data migration?",
+                    "options": [
+                        {"id": "b1", "option": "Essential / business critical – we cannot afford any downtime - our service is 24/7", "weight": 10}, 
+                        {"id": "b2", "option": "Not very - a multi-day outage is acceptable", "weight": 0}, 
+                        {"id": "b3", "option": "Very important – we can only afford downtime during short periods overnight", "weight": 8}, 
+                        {"id": "b4", "option": "Quite important - we can only afford some downtime, overnight and weekends", "weight": 2}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "option",
+                    "required": true,
+                    "question": "What average proportion of IT project budgets would you estimate your company spends on data migration?",
+                    "options": [
+                        {"id": "a1970", "option": "Less than 15%", "weight": 2}, 
+                        {"id": "a1990", "option": "15-25%", "weight": 4}, 
+                        {"id": "a2004", "option": "25-35%", "weight": 7}, 
+                        {"id": "a1907", "option": "More than 35%", "weight": 10}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "option",
+                    "required": true,
+                    "question": " Please estimate the number of data migration projects your company executes each year. Please include programs where data migration forms a significant part (>15%) of the total budget.",
+                    "options": [
+                        {"id": "ab1", "option": "More than 20", "weight": 10}, 
+                        {"id": "ab2", "option": "11-20", "weight": 8}, 
+                        {"id": "ab3", "option": "6-10", "weight": 5}, 
+                        {"id": "ab4", "option": "1-5", "weight": 2},
+                        {"id": "ab5", "option": "None", "weight": 0}
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "Something else",
+            "questions": [
+                {
+                    "id": 1,
+                    "type": "option",
+                    "required": true,
+                    "question": "Data migration expertise – how much data migration expertise do you have in your business?",
+                    "options": [
+                                {"id": "aH", "option": "A lot, we deliver our own projects", "weight": 10}, 
+                                {"id": "aTi", "option": "None, we use a systems integrator", "weight": 2}, 
+                                {"id": "aHe", "option": "None, we hire contract staff as required", "weight": 1}, 
+                                {"id": "aO", "option": "Quite a lot, but we also use a systems integrator", "weight": 7}
+                            ]
+                },
+                {
+                    "id": 2,
+                    "type": "option",
+                    "required": true,
+                    "question": "Data migration method – your business",
+                    "options": [
+                                {"id": "bH", "option": "Does not use a formal method for data migration", "weight": 1}, 
+                                {"id": "bTi", "option": "Has a method, but does not always use it", "weight": 3}, 
+                                {"id": "bHe", "option": "Has a method and usually uses it", "weight": 7}, 
+                                {"id": "bO", "option": "Always uses a formal method for data migration", "weight": 10}
+                            ]
+                },
+                {
+                    "id": 3,
+                    "type": "MCQ",
+                    "required": true,
+                    "question": "Service disruption – in general, how important is maintaining your services throughout the duration of a data migration?",
+                    "options": [
+                        {"id": "b1", "option": "Essential / business critical – we cannot afford any downtime - our service is 24/7", "weight": 10}, 
+                        {"id": "b2", "option": "Not very - a multi-day outage is acceptable", "weight": 0}, 
+                        {"id": "b3", "option": "Very important – we can only afford downtime during short periods overnight", "weight": 8}, 
+                        {"id": "b4", "option": "Quite important - we can only afford some downtime, overnight and weekends", "weight": 2}
+                    ]
+                },
+                {
+                    "id": 4,
+                    "type": "option",
+                    "required": true,
+                    "question": "What average proportion of IT project budgets would you estimate your company spends on data migration?",
+                    "options": [
+                        {"id": "a1970", "option": "Less than 15%", "weight": 2}, 
+                        {"id": "a1990", "option": "15-25%", "weight": 4}, 
+                        {"id": "a2004", "option": "25-35%", "weight": 7}, 
+                        {"id": "a1907", "option": "More than 35%", "weight": 10}
+                    ]
+                },
+                {
+                    "id": 5,
+                    "type": "option",
+                    "required": true,
+                    "question": " Please estimate the number of data migration projects your company executes each year. Please include programs where data migration forms a significant part (>15%) of the total budget.",
+                    "options": [
+                        {"id": "ab1", "option": "More than 20", "weight": 10}, 
+                        {"id": "ab2", "option": "11-20", "weight": 8}, 
+                        {"id": "ab3", "option": "6-10", "weight": 5}, 
+                        {"id": "ab4", "option": "1-5", "weight": 2},
+                        {"id": "ab5", "option": "None", "weight": 0}
+                    ]
+                }
+            ]
+        },
+        {
+            "category": "More Randomness",
+            "questions": [
+            {
+                "id": 1,
+                "type": "TITA",
+                "required": true,
+                "question": "Where is the lamb sauce?",
+                "options":[]
+            },
+            {
+                "id": 2,
+                "type": "option",
+                "required": true,
+                "question": "What is the only element to have been initially discovered on some place other than Earth?",
+                "options": [
+                            {"id": "H", "option": "Hydrogen", "weight": 3}, 
+                            {"id": "Ti", "option": "Titanium", "weight": 1}, 
+                            {"id": "He", "option": "Helium", "weight": 10}, 
+                            {"id": "O", "option": "Oxygen", "weight": 2}
+                        ]
+            },
+            {
+                "id": 3,
+                "type": "MCQ",
+                "required": true,
+                "question": "Which of these instruments can be used to stargaze?",
+                "options": [
+                    {"id": "1", "option": "Telescope", "weight": 10}, 
+                    {"id": "2", "option": "Microscope", "weight": 0}, 
+                    {"id": "3", "option": "Binoculars", "weight": 8}, 
+                    {"id": "4", "option": "Eyepiece", "weight": 2},
+                    {"id": "5", "option": "Spectrometer", "weight": 2}
+                ]
+            },
+            {
+                "id": 4,
+                "type": "option",
+                "required": true,
+                "question": "When was the Hubble telescope launched?",
+                "options": [
+                    {"id": "1970", "option": "1970", "weight": 2}, 
+                    {"id": "1990", "option": "1990", "weight": 10}, 
+                    {"id": "2004", "option": "2004", "weight": 2}, 
+                    {"id": "1907", "option": "1907", "weight": 2}
+                ]
+            },
+            {
+                "id": 5,
+                "type": "option",
+                "required": true,
+                "question": "The satellite Calypso orbits which planet?",
+                "options": [
+                    {"id": "1", "option": "Saturn", "weight": 10}, 
+                    {"id": "2", "option": "Uranus", "weight": 4}, 
+                    {"id": "3", "option": "Jupiter", "weight": 5}, 
+                    {"id": "4", "option": "Mars", "weight": 0}
+                ]
+            }]
+        }
+    ]
+}

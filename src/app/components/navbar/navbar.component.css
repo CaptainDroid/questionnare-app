@@ -1,0 +1,12 @@
+span {
+    padding: 0px 10px;
+    font-size: 20px;
+}
+
+.space {
+    flex: 1 1 auto;
+}
+
+.big-head {
+    font-size: 26px;
+}
